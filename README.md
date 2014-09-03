@@ -1,31 +1,18 @@
-# Ruboty::Aa
+# ruboty-aa
 
-TODO: Write a gem description
+A Ruboty plugin for Ascii Art
 
-## Installation
-
-Add this line to your application's Gemfile:
+![](http://f.st-hatena.com/images/fotolife/s/secondlife/20140903/20140903162737.png?1409729171)
 
 ```ruby
 gem 'ruboty-aa'
 ```
 
-And then execute:
+## env options
 
-    $ bundle
+```ruby
+ENV['AA_PREFIX'] # default "```\n"
+ENV['AA_SUFFIX'] # default "```\n"
+ENV['AA_FONT'] # default "big", see https://github.com/miketierney/artii
+```
 
-Or install it yourself as:
-
-    $ gem install ruboty-aa
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/ruboty-aa/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
