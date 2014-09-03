@@ -26,7 +26,7 @@ module Ruboty
       def aa(message)
         word = message.match_data[1]
         if word && !word.empty?
-          message.reply prefix + artii.asciify(word) + suffix
+          message.reply prefix + artii.asciify(word).chomp + suffix
         end
       end
     end
